@@ -5,13 +5,14 @@ rm3100_timed_measurements.py contains the code stored on the Beaglebone, which i
 rm3100_continuous_measurements.py contains the code stored on the Beaglebone, which is used to take continuous
 measurements at a set sampling rate.
 
-rm3100_adev.ipynb contains the analysis of data taken using both timed and continuous measurements. This is a work in
+rm3100_analysis.ipynb contains the analysis of data taken using both timed and continuous measurements. This is a work in
 progress, and will be updated regularly.
 
-mag_data_short.txt is the data file for timed measurements.
-mag_data.txt is the data file for a continuous measurement.
+mag_data_short_30Hz.txt is the data file for timed measurement at 30Hz sampling rate.
+mag_data_short_32Hz.txt is the data file for timed measurement at 32Hz sampling rate
+mag_data.txt is the data file for continuous measurement.
 
-The columns of these two data files are:
+The columns of these three data files are:
 magX | magY | magZ | magn | time | Δt
 
 
